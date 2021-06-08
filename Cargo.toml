@@ -11,7 +11,7 @@ readme = "README.md"
 exclude = [".gitignore", ".vscode/*", ".github/*"]
 
 [dependencies]
-criterion = "0.3.4"
+criterion = { git = "https://github.com/Anton-4/criterion.rs" }
 perfcnt = "0.7.0"
 
 [[bench]]
